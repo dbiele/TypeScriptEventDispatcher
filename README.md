@@ -5,6 +5,8 @@ Conversion of the CreateJS EventDispatcher to TypeScript format.
 
 ## Example Use: ##
 
+    import {EventDispatcher} from 'folder/location/createjseventdispatcher';
+    import {Event} from 'folder/location/createjsevent';
     export class deviceOrientation extends EventDispatcher {
         constructor() {
             super();
